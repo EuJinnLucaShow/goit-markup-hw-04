@@ -110,6 +110,7 @@ span {
   padding-bottom: 280px;
   text-align: center;
   background: #2f303a;
+  background-image: url(../images/headerimg.jpg);
 }
 
 .title {
