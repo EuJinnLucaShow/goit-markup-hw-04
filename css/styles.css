@@ -111,6 +111,9 @@ span {
   text-align: center;
   background: #2f303a;
   background-image: url(../images/headerimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .title {
