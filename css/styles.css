@@ -120,7 +120,8 @@ span {
   padding-bottom: 200px;
   text-align: center;
   background: #2f303a;
-  background-image: url(../images/headerimg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/headerimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
