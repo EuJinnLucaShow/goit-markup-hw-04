@@ -346,7 +346,7 @@ footer {
   content: '';
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(../images/antenna.png);
+  background-image: url(../images/antenna.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -358,7 +358,7 @@ footer {
   content: '';
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(../images/clock.png);
+  background-image: url(../images/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -370,7 +370,7 @@ footer {
   content: '';
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(../images/diagram.png);
+  background-image: url(../images/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -382,7 +382,7 @@ footer {
   content: '';
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(../images/astronaut.png);
+  background-image: url(../images/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
