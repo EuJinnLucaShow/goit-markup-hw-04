@@ -71,6 +71,17 @@ span {
   color: #2196f3;
 }
 
+.icon-mail-header {
+  margin-right: 10px;
+  padding: 0;
+  fill: #757575;
+}
+
+/* .icon-mail-header:hover,
+.icon-mail-header:focus {
+  fill: #2196f3;
+} */
+
 .header-mail {
   margin-right: 50px;
   font-family: 'Roboto';
@@ -79,6 +90,16 @@ span {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+  border: none;
+}
+
+.icon-tel-header {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  padding: 0;
+  fill: #757575;
+  background-position: center;
 }
 
 .header-tel {
