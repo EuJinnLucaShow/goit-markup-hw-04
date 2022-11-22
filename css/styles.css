@@ -77,12 +77,10 @@ span {
   fill: #757575;
 }
 
-/* .icon-mail-header:hover,
-.icon-mail-header:focus {
-  fill: #2196f3;
-} */
-
 .header-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 50px;
   font-family: 'Roboto';
   font-weight: 500;
@@ -99,16 +97,17 @@ span {
   margin-right: 10px;
   padding: 0;
   fill: #757575;
-  background-position: center;
 }
 
 .header-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--second-text-color);
 }
 
