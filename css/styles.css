@@ -115,18 +115,11 @@ span {
   margin-right: 10px;
 }
 
-.tel-icon:hover,
-.tel-icon:focus {
-  fill: red;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--primary-text-color);
 }
 
