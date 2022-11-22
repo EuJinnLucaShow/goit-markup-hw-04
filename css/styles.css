@@ -77,6 +77,10 @@ span {
   fill: #757575;
 }
 
+.header-mail:hover .icon-mail-header {
+  fill: #2196f3;
+}
+
 .header-mail {
   display: flex;
   align-items: center;
@@ -113,6 +117,10 @@ span {
 
 .tel-icon {
   margin-right: 10px;
+}
+
+.header-tel:hover .icon-tel-header {
+  fill: #2196f3;
 }
 
 .header-link {
