@@ -467,6 +467,56 @@ footer {
   margin-bottom: 16px;
 }
 
+.clientage-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+
+.clientage-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #fff;
+  color: #afb1b8;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientage-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientage-items {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clientage-icon {
+  fill: currentColor;
+}
+
+.clientage-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clientage-link:hover {
+  fill: #2196f3;
+}
+
+.clientage-items:hover {
+  border-color: #2196f3;
+}
+
 .footer-logo {
   display: block;
   padding-top: 60px;
