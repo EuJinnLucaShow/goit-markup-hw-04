@@ -396,50 +396,13 @@ footer {
   color: #212121;
 }
 
-.antenna::before {
-  display: block;
-  content: '';
+.features-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
+  width: 270px;
   background-color: #f5f4fa;
-  background-image: url(../images/antenna.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  border-radius: 4px;
-}
-
-.clock::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: #f5f4fa;
-  background-image: url(../images/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  border-radius: 4px;
-}
-
-.diagram::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: #f5f4fa;
-  background-image: url(../images/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-  border-radius: 4px;
-}
-
-.astronaut::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: #f5f4fa;
-  background-image: url(../images/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 30px;
   border-radius: 4px;
 }
