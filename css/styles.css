@@ -81,7 +81,8 @@ span {
   fill: #757575;
 }
 
-.header-mail:hover .icon-mail-header {
+.header-mail:hover .icon-mail-header,
+.header-mail:focus .icon-mail-header {
   fill: #2196f3;
 }
 
@@ -123,7 +124,8 @@ span {
   margin-right: 10px;
 }
 
-.header-tel:hover .icon-tel-header {
+.header-tel:hover .icon-tel-header,
+.header-tel:focus .icon-tel-header {
   fill: #2196f3;
 }
 
@@ -301,11 +303,13 @@ footer {
   align-items: center;
 }
 
-.ourteam-soc-link:hover {
+.ourteam-soc-link:hover,
+.ourteam-soc-link:focus {
   background-color: #2196f3;
 }
 
-.ourteam-soc-link:hover .ourteam-icon {
+.ourteam-soc-link:hover .ourteam-icon,
+.ourteam-soc-link:focus .ourteam-icon {
   fill: #fff;
 }
 
@@ -323,17 +327,6 @@ footer {
   /* padding-top: 30px; */
   border-top: initial;
 }
-
-/* .our-team-caption {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  border-top: initial;
-} */
 
 .portfolio-btn {
   display: flex;
@@ -353,7 +346,8 @@ footer {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.grid__item:hover {
+.grid__item:hover,
+.grid__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -529,11 +523,13 @@ footer {
   margin-right: 30px;
 }
 
-.clientage-link:hover {
+.clientage-link:hover,
+.clientage-link:focus {
   fill: #2196f3;
 }
 
-.clientage-items:hover {
+.clientage-items:hover,
+.clientage-items:focus {
   border-color: #2196f3;
 }
 
@@ -599,7 +595,8 @@ footer {
   align-items: center;
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #2196f3;
 }
 
